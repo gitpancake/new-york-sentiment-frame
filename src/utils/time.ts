@@ -7,3 +7,5 @@ class TodayStartTimestamp {
     return Math.floor(startOfToday.getTime() / 1000);
   }
 }
+
+export default TodayStartTimestamp;
